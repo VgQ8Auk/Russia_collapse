@@ -1,0 +1,28 @@
+﻿l_english:
+ BRY: "Buryatia"
+ BRY_DEF: "Buryatia"
+ BRY_ADJ: "Buryatian"
+
+ BRY_communism: "Socialist Republic of Buryatia"
+ BRY_communism_DEF: "the Socialist Republic of Buryatia"
+ BRY_communism_ADJ: "Buryatian"
+ BRY_communism_party: "BOSR - Trotskistskoye Krylo"
+ BRY_communism_party_long: "Boyevaya Organizatsiya Sotsialistov Revolyutsionerov - Trotskistskoye Krylo (Socialist Revolutionary Combat Organization - Troskyist Wing)"
+
+ BRY_democratic: "Socialist Republic of Buryatia"
+ BRY_democratic_DEF: "the Socialist Republic of Buryatia"
+ BRY_democratic_ADJ: "Buryatian"
+ BRY_democratic_party: "BOSR - Agrarnoye Krylo"
+ BRY_democratic_party_long: "Boyevaya Organizatsiya Sotsialistov Revolyutsionerov - Agrarnoye Krylo (Socialist Revolutionary Combat Organization - Agrarian Wing)"
+
+ BRY_fascism: "Russian Fascist Party"
+ BRY_fascism_DEF: "the Russian Fascist Party"
+ BRY_fascism_ADJ: "Russian"
+ BRY_fascism_party: "RFP"
+ BRY_fascism_party_long: "Rossiyskaya Fashistskaya Partiya (Russian Fascist Party)"
+
+ BRY_neutrality: "Buryat Military Okrug"
+ BRY_neutrality_DEF: "the Buryat Military Okrug"
+ BRY_neutrality_ADJ: "Buryatian"
+ BRY_neutrality_party: "BVO"
+ BRY_neutrality_party_long: "Buryatskiy Voyennyy Okrug (Buryatia Military Council)"

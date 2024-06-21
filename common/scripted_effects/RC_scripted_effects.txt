@@ -1,0 +1,477 @@
+#RussiaCollapse_effect
+#SOV_transfer_states_to_warlords
+#SOV_add_cores_to_warlords
+#WRS_add_cores
+#WRS_transfer_states
+#TYM_add_cores
+#TYM_transfer_states
+#TOM_add_cores
+#TOM_transfer_states
+#IRK_add_cores
+#IRK_transfer_states
+#KAZ_release
+#Central_asia_release
+#FIN_Become_bigger
+#CPS_Annex_Russian_Far_East
+
+RussiaCollapse_effect = {
+	SOV_add_cores_to_warlords = yes
+	SOV_transfer_states_to_warlords = yes
+}
+SOV_transfer_units_to_warlords = {
+	WRS = {
+		SOV = {
+			transfer_units_fraction= {
+				target = PREV
+				size = 0
+				stockpile_ratio = 1
+				army_ratio = 1
+				navy_ratio = 1
+				air_ratio = 1
+				keep_unit_leaders_trigger = {
+					ROOT = {
+        				original_tag = WRS
+        			}
+				}
+			}
+		}
+	}
+	SOV = {
+		SOV_kliment_voroshilov = {
+			set_nationality = WRS
+			add_country_leader_role = {
+				character = SOV_kliment_voroshilov
+				promote_leader = yes
+				country_leader = {
+					ideology = marxism
+					expire = "1965.1.1.1"
+					traits = { revolutionary_general incompetent_leader }
+				}
+			}
+		}
+		SOV_lazar_kaganovich = {
+			set_nationality = TYM
+			add_country_leader_role = {
+				character = SOV_lazar_kaganovich
+				promote_leader = yes
+				country_leader = {
+					ideology = stalinism
+					expire = "1965.1.1.1"
+					traits = { staunch_stalinist }
+				}
+			}
+		}
+	}
+}
+
+SOV_add_cores_to_warlords = {
+	WRS_add_cores = yes
+	TYM_add_cores = yes
+	TOM_add_cores = yes
+	IRK_add_cores = yes
+}
+
+SOV_transfer_states_to_warlords = {
+	WRS_transfer_states = yes
+	TYM_transfer_states = yes
+	TOM_transfer_states = yes
+	IRK_transfer_states = yes
+}
+
+WRS_add_cores = {
+	WRS = {
+		add_state_core = 825
+		add_state_core = 262
+		add_state_core = 581
+		add_state_core = 397
+		add_state_core = 398
+		add_state_core = 400
+		add_state_core = 399
+		add_state_core = 833
+		add_state_core = 256
+		add_state_core = 249
+		add_state_core = 651
+		add_state_core = 582
+		add_state_core = 573
+		add_state_core = 652
+		add_state_core = 251
+		add_state_core = 250
+		add_state_core = 401
+	}
+}
+
+WRS_transfer_states = {
+	WRS = {
+		transfer_state = 825
+		transfer_state = 262
+		transfer_state = 581
+		transfer_state = 397
+		transfer_state = 398
+		transfer_state = 400
+		transfer_state = 399
+		transfer_state = 833
+		transfer_state = 256
+		transfer_state = 249
+		transfer_state = 651
+		transfer_state = 582
+		transfer_state = 573
+		transfer_state = 652
+		transfer_state = 251
+		transfer_state = 250
+		transfer_state = 401
+	}
+}
+
+TYM_add_cores = {
+	TYM = {
+		add_state_core = 579
+		add_state_core = 580
+		add_state_core = 653
+		add_state_core = 403
+		add_state_core = 572
+		add_state_core = 571
+	}
+}
+
+TYM_transfer_states = {
+	TYM = {
+		transfer_state = 579
+		transfer_state = 580
+		transfer_state = 653
+		transfer_state = 403
+		transfer_state = 572
+		transfer_state = 571
+	}
+}
+
+TOM_add_cores = {
+	TOM = {
+		add_state_core = 824
+		add_state_core = 577
+		add_state_core = 578
+		add_state_core = 570
+		add_state_core = 40
+		add_state_core = 654
+		add_state_core = 569
+		add_state_core = 568
+		add_state_core = 567
+		add_state_core = 576
+		add_state_core = 516
+		add_state_core = 878
+	}
+}
+
+TOM_transfer_states = {
+	TOM = {
+		transfer_state = 824
+		transfer_state = 577
+		transfer_state = 578
+		transfer_state = 570
+		transfer_state = 40
+		transfer_state = 654
+		transfer_state = 569
+		transfer_state = 568
+		transfer_state = 567
+		transfer_state = 576
+		transfer_state = 516
+		transfer_state = 878
+	}
+}
+
+IRK_add_cores = {
+	IRK = {
+		add_state_core = 566
+		add_state_core = 564
+		add_state_core = 563
+		add_state_core = 561
+		add_state_core = 562
+		add_state_core = 874
+		add_state_core = 637
+		add_state_core = 822
+		add_state_core = 644
+		add_state_core = 877
+		add_state_core = 574
+		add_state_core = 876
+		add_state_core = 575
+		add_state_core = 565
+		add_state_core = 875
+		add_state_core = 657
+		add_state_core = 560
+		add_state_core = 655
+		add_state_core = 409
+		add_state_core = 408
+	}
+}
+
+IRK_transfer_states = {
+	IRK = {
+		transfer_state = 566
+		transfer_state = 564
+		transfer_state = 563
+		transfer_state = 561
+		transfer_state = 562
+		transfer_state = 874
+		transfer_state = 637
+		transfer_state = 822
+		transfer_state = 644
+		transfer_state = 877
+		transfer_state = 574
+		transfer_state = 876
+		transfer_state = 575
+		transfer_state = 565
+		transfer_state = 875
+		transfer_state = 657
+		transfer_state = 560
+		transfer_state = 655
+		transfer_state = 409
+		transfer_state = 408
+	}
+}
+
+KAZ_release = {
+	KAZ = {
+		transfer_state = 407
+		transfer_state = 406
+		transfer_state = 402
+		transfer_state = 583
+		transfer_state = 590
+		transfer_state = 882
+		transfer_state = 588
+		transfer_state = 589
+		transfer_state = 586
+		transfer_state = 404
+		transfer_state = 881
+		transfer_state = 587
+	}
+}
+
+Central_asia_release = {
+	KKP = {
+		transfer_state = 823
+		transfer_state = 831
+	}
+	TMS = {
+		transfer_state = 832
+		transfer_state = 584
+	}
+	UZB = {
+		transfer_state = 585
+		transfer_state = 405
+		transfer_state = 830
+	}
+	TAJ = {
+		transfer_state = 742
+	}
+	KYR = {
+		transfer_state = 732
+	}
+}
+
+FIN_Become_bigger = {
+	random_country = {
+		limit = {
+			original_tag = FIN
+			NOT = { has_government = communism }
+		}
+		transfer_state = 213
+		transfer_state = 215
+		transfer_state = 216
+	}
+}
+
+CPS_Annex_Russian_Far_East = {
+	MAN = {
+		transfer_state = 560
+		transfer_state = 657
+		transfer_state = 409
+		transfer_state = 408
+	}
+	JAP = {
+		transfer_state = 655
+	}
+}
+
+Forming_Eastern_RK = {
+	RKU = {
+		set_cosmetic_tag = UKR_reichskommissariat
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+			long_name = "Arbeitsbereich Osten der Nationalsozialistische Deutsche Arbeiterpartei - Working Area East of the National Socialist German Workers' Party"
+			name = "AOdNSDAP"
+		}
+		set_political_party = {
+			ideology = fascism
+			popularity = 80
+		}
+		transfer_state = 202
+		transfer_state = 201
+		transfer_state = 199
+		transfer_state = 200
+		transfer_state = 203
+		transfer_state = 196
+		transfer_state = 197
+		transfer_state = 226
+		transfer_state = 193
+		transfer_state = 225
+		transfer_state = 259
+		transfer_state = 221
+		transfer_state = 227
+		transfer_state = 228
+		transfer_state = 93
+		transfer_state = 94
+		transfer_state = 218
+		transfer_state = 137
+		transfer_state = 194
+	}
+	TNS =  {
+		transfer_state = 192
+		transfer_state = 198
+		transfer_state = 834
+	}
+	RKO = {
+		set_cosmetic_tag = BLR_reichskommissariat
+		set_politics = {
+			ruling_party = fascism
+		}
+		set_political_party = {
+			ideology = fascism
+			popularity = 80
+		}
+		transfer_state = 811
+		transfer_state = 812
+		transfer_state = 813
+		transfer_state = 13
+		transfer_state = 191
+		transfer_state = 12
+		transfer_state = 808
+		transfer_state = 810
+		transfer_state = 809
+		transfer_state = 190
+		transfer_state = 189
+		transfer_state = 815
+		transfer_state = 814
+		transfer_state = 11
+		transfer_state = 784
+		transfer_state = 96
+		transfer_state = 95
+		transfer_state = 204
+		transfer_state = 206
+		transfer_state = 207
+	}
+	RKM = {
+		transfer_state = 195
+		transfer_state = 250
+		transfer_state = 256
+		transfer_state = 208
+		transfer_state = 244
+		transfer_state = 264
+		transfer_state = 351
+		transfer_state = 879
+		transfer_state = 214
+		transfer_state = 880
+		transfer_state = 209
+		transfer_state = 263
+		transfer_state = 210
+		transfer_state = 246
+		transfer_state = 247
+		transfer_state = 248
+		transfer_state = 252
+		transfer_state = 253
+		transfer_state = 219		
+		transfer_state = 242
+		transfer_state = 205
+		transfer_state = 224
+		transfer_state = 243
+		transfer_state = 222
+		transfer_state = 254
+		transfer_state = 255
+		transfer_state = 223
+		transfer_state = 258
+		transfer_state = 257
+		transfer_state = 220
+		transfer_state = 240
+		transfer_state = 260
+		transfer_state = 239
+		transfer_state = 265
+		transfer_state = 829
+		transfer_state = 217
+		transfer_state = 245
+		transfer_state = 236
+		transfer_state = 237
+		transfer_state = 238
+		transfer_state = 241
+	}
+	RKK = {
+		transfer_state = 234
+		transfer_state = 235
+		transfer_state = 232
+		transfer_state = 233
+		transfer_state = 827
+		transfer_state = 828
+		transfer_state = 821
+		transfer_state = 821
+		transfer_state = 826
+		transfer_state = 231
+		transfer_state = 229
+	}
+	TUR = {
+		transfer_state = 230
+	}
+	GGV = {
+		transfer_state = 91
+		transfer_state = 89
+		transfer_state = 88
+		transfer_state = 90
+		transfer_state = 92
+		transfer_state = 10
+	}
+}
+
+TannuTuva_becomes_PRC = {
+	TAN = {
+		set_cosmetic_tag = TAN_PRC
+		transfer_state = 820
+		transfer_state = 818
+		add_state_core = 820
+		add_state_core = 818		
+	}
+	if = {
+		limit = {
+			SOV = {
+				has_character = SOV_aleksandr_vasilevsky
+			}
+		}
+		SOV = {
+			SOV_aleksandr_vasilevsky = {
+				set_nationality = TAN
+				add_country_leader_role = {
+					country_leader = {
+						ideology = leninism
+						expire = "1965.1.1.1"
+						traits = { }
+					}
+					promote_leader = yes
+				}
+			}				
+		}
+	}
+	else = {
+		
+	}
+}
+
+Mongolia_annexed_by_Mengjiang = {
+	MON = {
+		transfer_units_fraction= {
+			target = MEN
+			size = 0.8
+			stockpile_ratio = 1
+		}
+	}
+	MEN = {
+		transfer_state = 819
+		transfer_state = 330
+		transfer_state = 817
+	}
+}

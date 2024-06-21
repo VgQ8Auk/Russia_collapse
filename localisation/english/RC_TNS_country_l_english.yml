@@ -1,0 +1,28 @@
+﻿l_english:
+ TNS: "Transnistria"
+ TNS_DEF: "Transnistria"
+ TNS_ADJ: "Transnistrian"
+
+ TNS_GER_fascism: "Gebiet des Militärbefehlshabers in Transnistrien"
+ TNS_GER_fascism_DEF: "die Gebiet des Militärbefehlshabers in Transnistrien"
+ TNS_GER_fascism_ADJ: "Transnistrisch"
+
+ TNS_fascism: "Pridnestrovian State"
+ TNS_fascism_DEF: "the Pridnestrovian State"
+ TNS_fascism_ADJ: "Pridnestrovian"
+
+ TNS_democratic: "Pridnestrovian Republic"
+ TNS_democratic_DEF: "the Pridnestrovian Republic"
+ TNS_democratic_ADJ: "Pridnestrovian"
+ 
+ TNS_communism: "Pridnestrovian Moldavian Soviet Socialist Republic"
+ TNS_communism_DEF: "the Pridnestrovian Moldavian Soviet Socialist Republic"
+ TNS_communism_ADJ: "Pridnestrovian"
+
+ TNS_neutrality: "Dniester and Bug Administration"
+ TNS_neutrality_DEF: "the Administration between the Dniester and Bug"
+ TNS_neutrality_ADJ: "Pridnestrovian"
+ 
+ TNS_ROM: "Transnistria Governorate"
+ TNS_ROM_DEF: "the Transnistrian Governorate"
+ TNS_ROM_ADJ: "Transnistrian"

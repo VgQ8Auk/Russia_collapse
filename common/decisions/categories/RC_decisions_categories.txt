@@ -1,0 +1,30 @@
+RC_debug_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+		is_ai = no
+	}
+	priority = 90
+}
+
+RC_GER_territories_management = {
+	icon = GFX_decision_infiltrate_state
+	visible = {
+		original_tag = GER
+		has_government = fascism
+	}
+	priority = 10
+}
+
+RC_GameStartup_decisions = {
+	icon = GFX_decision_category_SOV_civil_war
+	picture = GFX_decision_cat_picture_soviet_civil_war
+	priority = 2500
+	visible = {
+		is_ai = no
+		NOT = {
+			has_global_flag = RC_hide_custom_settings
+		}
+		date < 1936.02.01
+	}
+}

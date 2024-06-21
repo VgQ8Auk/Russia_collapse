@@ -1,0 +1,28 @@
+﻿l_english:
+ RUS: "Russia"
+ RUS_DEF: "Russia"
+ RUS_ADJ: "Russian"
+
+ RUS_communism: "Russian Soviet Federative Socialist Republic"
+ RUS_communism_DEF: "the Russian Soviet Federative Socialist Republic"
+ RUS_communism_ADJ: "Russian"
+ RUS_communism_party: "VKP(b)"
+ RUS_communism_party_long: "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov) (All-Union Communist Party (Bolsheviks))"
+
+ RUS_democratic: "Russian Republic"
+ RUS_democratic_DEF: "the Russian Republic"
+ RUS_democratic_ADJ: "Russian"
+ RUS_democratic_party: "PSR"
+ RUS_democratic_party_long: "Partiya Sotsialistov-Revolyutsionerovnote (Socialist-Revolutionary Party)"
+
+ RUS_fascism: "Russian National State"
+ RUS_fascism_DEF: "the Russian National State"
+ RUS_fascism_ADJ: "Russian"
+ RUS_fascism_party: "RFP"
+ RUS_fascism_party_long: "Rossiyskaya Fashistskaya Partiya (Russian Fascist Party)"
+
+ RUS_neutrality: "Russian Republic"
+ RUS_neutrality_DEF: "the Russian Republic"
+ RUS_neutrality_ADJ: "Russian"
+ RUS_neutrality_party: "RVS"
+ RUS_neutrality_party_long: "Rossiyskiy Voyennyy Sovet (Russian Military Council)"

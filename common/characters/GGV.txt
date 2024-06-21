@@ -1,0 +1,19 @@
+characters = {
+	
+	GGV_Hans_Frank = {
+		name = GGV_Hans_Frank
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GGV_Hans_Frank
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	
+	

@@ -1,0 +1,28 @@
+﻿l_english:
+ IRK: "Irkutsk"
+ IRK_DEF: "Irkutsk"
+ IRK_ADJ: "Irkutsk"
+ 
+ IRK_communism: "Far Eastern Soviet Socialist Republic"
+ IRK_communism_DEF: "the Far Eastern Soviet Socialist Republic"
+ IRK_communism_ADJ: "Far Eastern Soviet"
+ IRK_communism_party: "VKP(b)"
+ IRK_communism_party_long: "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)"
+ 
+ IRK_democratic: "Siberian National Republic"
+ IRK_democratic_DEF: "the Siberian National Republic"
+ IRK_democratic_ADJ: "Siberian"
+ IRK_democratic_party: "RNTP"
+ IRK_democratic_party_long: "Russkaya Natsionalnaya Trudovaya Partiya"
+ 
+ IRK_fascism: "All-Russian Government of the Far East"
+ IRK_fascism_DEF: "the All-Russian Government of the Far East"
+ IRK_fascism_ADJ: "Far Eastern"
+ IRK_fascism_party: "RFP"
+ IRK_fascism_party_long: "Rossiyskaya Fashistskaya Partiya"
+ 
+ IRK_neutrality: "Far Eastern Imperial Realm"
+ IRK_neutrality_DEF: "the Far Eastern Imperial Realm"
+ IRK_neutrality_ADJ: "Far Eastern"
+ IRK_neutrality_party: "RTL"
+ IRK_neutrality_party_long: "Rossiyskaya Tsarskaya Liga"

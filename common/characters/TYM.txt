@@ -1,0 +1,19 @@
+characters = {
+
+	TYM_Lazar_Kaganovich = {
+		name = TYM_Lazar_Kaganovich
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TYM_Lazar_Kaganovich
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	
+	

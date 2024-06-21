@@ -1,0 +1,28 @@
+﻿l_english:
+ YEN: "Yeniseysk"
+ YEN_DEF: "Yeniseysk"
+ YEN_ADJ: "Yeniseysk"
+
+ YEN_communism: "Yeniseysk Governorate"
+ YEN_communism_DEF: "the Yeniseysk Governorate"
+ YEN_communism_ADJ: "Yeniseysk"
+ YEN_communism_party: "LRSP"
+ YEN_communism_party_long: "Liberal'naya Rabochaya Sotsialisticheskaya Partiya (Liberal Workers Socialist Party)"
+
+ YEN_democratic: "Yeniseysk Republic"
+ YEN_democratic_DEF: "the Yeniseysk Republic"
+ YEN_democratic_ADJ: "Yeniseysk"
+ YEN_democratic_party: "PDR"
+ YEN_democratic_party_long: "Partiya Demokratizatsiya Rossii (Party For the Democratization Of Russia)"
+
+ YEN_fascism: "Norilsk National Revolutionary Government"
+ YEN_fascism_DEF: "the Norilsk National Revolutionary Government"
+ YEN_fascism_ADJ: "Yeniseysk"
+ YEN_fascism_party: "KSP"
+ YEN_fascism_party_long: "Kommunisticheskaya Sotsialisticheskaya Partiya (Communist Socialist Party)"
+
+ YEN_neutrality: "Yeniseysk Confederation"
+ YEN_neutrality_DEF: "the Yeniseysk Confederation"
+ YEN_neutrality_ADJ: "Yeniseysk"
+ YEN_neutrality_party: "Republikanskaya Militsiya"
+ YEN_neutrality_party_long: "Republikanskaya Militsiya (Republican Militia)"

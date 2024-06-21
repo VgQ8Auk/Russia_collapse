@@ -1,0 +1,20 @@
+﻿l_english:
+ PRM: "Perm"
+ PRM_DEF: "Perm"
+ PRM_ADJ: "Perm"
+ 
+ PRM_communism: "Perm Soviet Government"
+ PRM_communism_DEF: "the Perm Soviet Government"
+ PRM_communism_ADJ: "Perm Soviet"
+ 
+ PRM_democratic: "Perm Constituent Assembly"
+ PRM_democratic_DEF: "the Perm Constituent Assembly"
+ PRM_democratic_ADJ: "Perm"
+ 
+ PRM_fascism: "Aryan Brotherhood"
+ PRM_fascism_DEF: "the Aryan Brotherhood"
+ PRM_fascism_ADJ: "Aryan Brotherhood"
+ 
+ PRM_neutrality: "Perm National Committee"
+ PRM_neutrality_DEF: "the Perm National Committee"
+ PRM_neutrality_ADJ: "Perm"

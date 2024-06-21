@@ -1,0 +1,30 @@
+﻿l_english:
+ TOM: "Tomsk" #"Central Siberian Republic"
+ TOM_DEF: "Tomsk" #"the Central Siberian Republic"
+ TOM_ADJ: "Tomsk" #"Central Siberian"
+ 
+ TOM_communism: "Central Siberian Soviet Socialist Republic"
+ TOM_communism_DEF: "the Central Siberian Soviet Socialist Republic"
+ TOM_communism_ADJ: "Central Siberian"
+ TOM_communism_party: "Krasnaya Armiya"
+ TOM_communism_party_long: "Krasnaya Armiya"
+ 
+ TOM_democratic: "Central Siberian Republic"
+ TOM_democratic_DEF: "the Central Siberian Republic"
+ TOM_democratic_ADJ: "Central Siberian"
+ TOM_democratic_party: "Dekabristy"
+ TOM_democratic_party_long: "Dekabristy"
+ 
+ TOM_fascism: "Central Eurasian State"
+ TOM_fascism_DEF: "the Central Eurasian State"
+ TOM_fascism_ADJ: "Central Eurasian"
+ TOM_fascism_party: "ENK"
+ TOM_fascism_party_long: "Evraziyskaya Nacional'naya Komissiya"
+ 
+ TOM_neutrality:  "Grand Principality of Central Siberia"
+ TOM_neutrality_DEF: "the Grand Principality of Central Siberia"
+ TOM_neutrality_ADJ: "Central Siberian"
+ TOM_neutrality_party: "Zemsky Sobo"
+ TOM_neutrality_party_long: "Zemsky Sobo"
+ 
+ TOM_Boris_Pasternak: "Boris Pasternak"

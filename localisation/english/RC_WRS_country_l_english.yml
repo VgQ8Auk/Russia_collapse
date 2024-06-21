@@ -1,0 +1,28 @@
+﻿l_english:
+ WRS: "West Russian Revolutionary Front"
+ WRS_DEF: "the West Russian Revolutionary Front"
+ WRS_ADJ: "West Russian"
+ WRS_communism: "West Russian Revolutionary Front"
+ WRS_communism_DEF: "the West Russian Revolutionary Front"
+ WRS_communism_ADJ: "West Russian"
+ WRS_communism_party: "ZRF"
+ WRS_communism_party_long: "Zapadnorusskij Revoljucionnyj Front"
+
+
+ WRS_fascism: "West Russian National Soviet Republic"
+ WRS_fascism_DEF: "the West Russian National Soviet Republic"
+ WRS_fascism_ADJ: "West Russian"
+ WRS_fascism_party: "ZNP"
+ WRS_fascism_party_long: "Zapadnorusskaja nacional-bol'shevistskaja partija"
+
+ WRS_democratic: "West Russian Republic"
+ WRS_democratic_DEF: "the West Russian Republic"
+ WRS_democratic_ADJ: "West Russian"
+ WRS_democratic_party: "DSNP"
+ WRS_democratic_party_long: "Demokraticheskaya Sotsialisticheskaya Narodnaya Partiya"
+
+ WRS_neutrality: "West Russian Provisional Authority"
+ WRS_neutrality_DEF: "the West Russian Provisional Authority"
+ WRS_neutrality_ADJ: "West Russian"
+ WRS_neutrality_party: "ZNS"
+ WRS_neutrality_party_long: "Zapadnorusskoe Narodnoe Sobranie"

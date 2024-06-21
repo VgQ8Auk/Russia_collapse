@@ -1,0 +1,19 @@
+characters = {
+	
+	RKN_Arthur_Seyss_Inquart = {
+		name = RKN_Arthur_Seyss_Inquart
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RKN_Arthur_Seyss_Inquart
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	
+	

@@ -1,0 +1,19 @@
+characters = {
+
+	TOM_Boris_Pasternak = {
+		name = TOM_Boris_Pasternak
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TOM_Boris_Pasternak
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	
+	

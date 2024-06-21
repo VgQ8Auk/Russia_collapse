@@ -1,0 +1,46 @@
+characters = {
+
+	IRK_Lavrenty_Beriya = {
+		name = IRK_Lavrenty_Beriya
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IRK_Lavrenty_Beriya
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	
+	IRK_Nikolay_Yezhov = {
+		name = IRK_Nikolay_Yezhov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IRK_Nikolay_Yezhov
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	
+	IRK_Genrikh_Yagoda = {
+		name = IRK_Genrikh_Yagoda
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IRK_Genrikh_Yagoda
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	
+	

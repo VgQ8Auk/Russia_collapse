@@ -1,0 +1,226 @@
+RC_TWR_PRM = {
+    RC_TWR_PRM_add_core_of = yes
+    RC_TWR_PRM_transfer_state_to = yes
+}
+
+RC_TWR_PRM_add_core_of = {
+    every_state = {
+        limit = {
+            OR = {
+                state = 40
+                state = 239
+                state = 249
+                state = 250
+                state = 251
+                state = 252
+                state = 255
+                state = 256
+                state = 262
+                state = 397
+                state = 398
+                state = 399
+                state = 400
+                state = 401
+                state = 402
+                state = 403
+                state = 404
+                state = 405
+                state = 406
+                state = 407
+                state = 408
+                state = 409
+                state = 516
+                state = 544
+                state = 560
+                state = 561
+                state = 562
+                state = 563
+                state = 564
+                state = 565
+                state = 566
+                state = 567
+                state = 568
+                state = 569
+                state = 570
+                state = 571
+                state = 572
+                state = 573
+                state = 574
+                state = 575
+                state = 576
+                state = 577
+                state = 578
+                state = 579
+                state = 580
+                state = 581
+                state = 582
+                state = 583
+                state = 584
+                state = 585
+                state = 586
+                state = 587
+                state = 588
+                state = 589
+                state = 590
+                state = 637
+                state = 644
+                state = 651
+                state = 652
+                state = 653
+                state = 654
+                state = 655
+                state = 657
+                state = 732
+                state = 742
+                state = 822
+                state = 823
+                state = 824
+                state = 825
+                state = 829
+                state = 830
+                state = 831
+                state = 832
+                state = 833
+                state = 874
+                state = 875
+                state = 876
+                state = 877
+                state = 878
+                state = 881
+                state = 882
+            }
+        }
+        add_core_of = PRM
+    }
+}
+
+RC_TWR_PRM_transfer_state_to = {
+    every_state = {
+        limit = {
+            OR = {
+                state = 40
+                state = 239
+                state = 249
+                state = 250
+                state = 251
+                state = 252
+                state = 255
+                state = 256
+                state = 262
+                state = 397
+                state = 398
+                state = 399
+                state = 400
+                state = 401
+                state = 402
+                state = 403
+                state = 404
+                state = 405
+                state = 406
+                state = 407
+                state = 408
+                state = 409
+                state = 516
+                state = 544
+                state = 560
+                state = 561
+                state = 562
+                state = 563
+                state = 564
+                state = 565
+                state = 566
+                state = 567
+                state = 568
+                state = 569
+                state = 570
+                state = 571
+                state = 572
+                state = 573
+                state = 574
+                state = 575
+                state = 576
+                state = 577
+                state = 578
+                state = 579
+                state = 580
+                state = 581
+                state = 582
+                state = 583
+                state = 584
+                state = 585
+                state = 586
+                state = 587
+                state = 588
+                state = 589
+                state = 590
+                state = 637
+                state = 644
+                state = 651
+                state = 652
+                state = 653
+                state = 654
+                state = 655
+                state = 657
+                state = 732
+                state = 742
+                state = 822
+                state = 823
+                state = 824
+                state = 825
+                state = 829
+                state = 830
+                state = 831
+                state = 832
+                state = 833
+                state = 874
+                state = 875
+                state = 876
+                state = 877
+                state = 878
+                state = 881
+                state = 882
+            }
+        }
+        transfer_state_to = PRM
+    }
+}
+
+BRY_add_cores = {
+    every_state = {
+        limit = {
+            OR = {
+                state = 563
+                state = 564
+                state = 565
+            }
+        }
+        add_core_of = BRY
+    }
+}
+
+BRY_transfer_states = {
+    every_state = {
+        limit = {
+            OR = {
+                state = 563
+                state = 564
+                state = 565
+            }
+        }
+        transfer_state_to = BRY
+    }
+}
+
+BRY_Military_Okrug = {
+    BRY = {
+        set_politics = {
+            ruling_party = neutrality
+            elections_allowed = no
+        }
+        set_popularities = {
+            neutrality = 90
+            fascism = 5
+            communism = 5
+        }
+    }
+}
