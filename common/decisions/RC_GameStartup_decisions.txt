@@ -1,0 +1,56 @@
+RC_GameStartup_decisions = {
+    RC_toggle = {
+        icon = GFX_decision_generic_decision
+        complete_effect = {
+			custom_effect_tooltip = RC_toggle_collapse_tt
+			set_global_flag = RC_hide_custom_settings
+		}
+    }
+    RC_TNO = {
+        icon = GFX_decision_generic_ignite_civil_war
+        visible = {
+            NOT = {
+                has_global_flag = RC_TNO_collapse
+            }
+        }
+        complete_effect = {
+			custom_effect_tooltip = RC_TNO_collapse_tt
+			set_global_flag = RC_TNO_collapse
+            clr_global_flag = RC_TWR_collapse
+		}
+    }
+    RC_TWR = {
+        icon = GFX_decision_generic_ignite_civil_war
+        visible = {
+            NOT = {
+                has_global_flag = RC_TWR_collapse
+            }
+        }
+        complete_effect = {
+			custom_effect_tooltip = RC_TWR_collapse_tt
+			set_global_flag = RC_TWR_collapse
+            clr_global_flag = RC_TNO_collapse
+		}
+    }
+    RC_timeout = {
+        icon = GFX_decision_generic_wreckers
+        days_mission_timeout = 14
+        is_good = no
+        available = {
+            always = no
+        }
+        visible = {
+            NOT = {
+                has_global_flag = RC_hide_custom_settings
+            }
+            date < 1936.02.01
+        }
+        fire_only_once = yes
+        cancel_trigger = {
+            has_global_flag = RC_hide_custom_settings
+        }
+        timeout_effect = {
+            set_global_flag = RC_hide_custom_settings
+        }
+    }
+}

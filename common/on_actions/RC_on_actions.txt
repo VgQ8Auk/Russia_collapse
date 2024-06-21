@@ -1,0 +1,162 @@
+on_actions = {
+	on_ruling_party_change = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = KAZ
+				}
+				if = {
+					limit = {
+						has_government = communism
+						OR = {
+							has_cosmetic_tag = KAZ_party_democratic
+							has_cosmetic_tag = KAZ_party_fascism
+							has_cosmetic_tag = KAZ_party_neutrality
+						}
+					}
+					set_cosmetic_tag = KAZ_party_communism
+				}
+				if = {
+					limit = {
+						has_government = democratic
+						OR = {
+							has_cosmetic_tag = KAZ_party_communism
+							has_cosmetic_tag = KAZ_party_fascism
+							has_cosmetic_tag = KAZ_party_neutrality
+						}
+					}
+					set_cosmetic_tag = KAZ_party_democratic
+				}
+				if = {
+					limit = {
+						has_government = fascism
+						OR = {
+							has_cosmetic_tag = KAZ_party_communism
+							has_cosmetic_tag = KAZ_party_democratic
+							has_cosmetic_tag = KAZ_party_neutrality
+						}
+					}
+					set_cosmetic_tag = KAZ_party_fascism
+				}
+				if = {
+					limit = {
+						has_government = neutrality
+						OR = {
+							has_cosmetic_tag = KAZ_party_communism
+							has_cosmetic_tag = KAZ_party_democratic
+							has_cosmetic_tag = KAZ_party_fascism
+						}
+					}
+					set_cosmetic_tag = KAZ_party_neutrality
+				}
+				if = {
+					limit = {
+						has_civil_war = yes
+						NOT = {
+							tag = KAZ
+						}
+					}
+					if = {
+						limit = {
+							has_government = communism
+						}
+						set_cosmetic_tag = KAZ_party_communism
+					}
+					if = {
+						limit = {
+							has_government = democratic
+						}
+						set_cosmetic_tag = KAZ_party_democratic
+					}
+					if = {
+						limit = {
+							has_government = fascism
+						}
+						set_cosmetic_tag = KAZ_party_fascism
+					}
+					if = {
+						limit = {
+							has_government = neutrality
+						}
+						set_cosmetic_tag = KAZ_party_neutrality
+					}
+				}
+			}
+			if = {
+				limit = {
+					original_tag = KKP
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_cosmetic_tag = turkestan_united }
+					}
+					set_cosmetic_tag = KKP_party_communism
+				}
+				else = {
+					drop_cosmetic_tag = yes
+				}
+			}
+			if = {
+				limit = {
+					original_tag = KYR
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_cosmetic_tag = turkestan_united }
+					}
+					set_cosmetic_tag = KYR_party_communism
+				}
+				else = {
+					drop_cosmetic_tag = yes
+				}
+			}
+			if = {
+				limit = {
+					original_tag = TAJ
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_cosmetic_tag = turkestan_united }
+					}
+					set_cosmetic_tag = TAJ_party_communism
+				}
+				else = {
+					drop_cosmetic_tag = yes
+				}
+			}
+			if = {
+				limit = {
+					original_tag = TMS
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_cosmetic_tag = turkestan_united }
+					}
+					set_cosmetic_tag = TAJ_party_communism
+				}
+				else = {
+					drop_cosmetic_tag = yes
+				}
+			}
+			if = {
+				limit = {
+					original_tag = UZB
+				}
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { has_cosmetic_tag = turkestan_united }
+					}
+					set_cosmetic_tag = UZB_party_communism
+				}
+				else = {
+					drop_cosmetic_tag = yes
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_portrait_GGV_Hans_Frank"
+		texturefile = "gfx/leaders/GGV/portrait_GGV_Hans_Frank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_RKN_Arthur_Seyss_Inquart"
+		texturefile = "gfx/leaders/RKN/portrait_RKN_Arthur_Seyss_Inquart.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_RKO_Hinrich_Lohse"
+		texturefile = "gfx/leaders/RKO/portrait_RKO_Hinrich_Lohse.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_RKU_Erich_Koch"
+		texturefile = "gfx/leaders/RKU/portrait_RKU_Erich_Koch.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_TOM_Boris_Pasternak"
+		texturefile = "gfx/leaders/TOM/portrait_TOM_Boris_Pasternak.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_TYM_Lazar_Kaganovich"
+		texturefile = "gfx/leaders/TYM/portrait_TYM_Lazar_Kaganovich.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_IRK_Lavrenty_Beriya"
+		texturefile = "gfx/leaders/IRK/portrait_IRK_Lavrenty_Beriya.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_IRK_Nikolay_Yezhov"
+		texturefile = "gfx/leaders/IRK/portrait_IRK_Nikolay_Yezhov.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_IRK_Genrikh_Yagoda"
+		texturefile = "gfx/leaders/IRK/portrait_IRK_Genrikh_Yagoda.dds"
+	}
+}

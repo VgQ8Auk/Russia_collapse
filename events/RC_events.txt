@@ -1,0 +1,198 @@
+add_namespace = RC_news_events
+add_namespace = RC_TNO_events
+
+news_event = {
+	id = RC_news_events.1
+	title = RC_news_events.1.t
+	desc = RC_news_events.1.desc
+	picture = GFX_news_event_kiev_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = RC_news_events.1.a
+		trigger = { TAG = SOV }
+	}
+	option = {
+		name = RC_news_events.1.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = RC_news_events.1.c
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+}
+
+country_event = {
+	id = RC_TNO_events.1
+	title = RC_TNO_events.1.t
+	desc = RC_TNO_events.1.desc
+	picture = GFX_report_event_soviet_soldiers
+	trigger = {
+		tag = SOV
+		has_war_with = GER
+		surrender_progress > 0.65
+		NOT = { controls_state = 195 }
+		NOT = { controls_state = 217 }
+		NOT = { controls_state = 219 }
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+        days = 2
+    }
+	immediate = {
+		log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TNO_events.1"
+	}
+	option = {
+		name = RC_TNO_events.1.a
+		ai_chance = {
+			base = 1
+			modifier = {
+				has_global_flag = RC_TWR_collapse
+				factor = 0
+			}
+		}
+		SOV = {
+			country_event = {
+				id = RC_TNO_events.2
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = RC_TNO_events.1.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				has_global_flag = RC_TNO_collapse
+				factor = 0
+			}
+		}
+		SOV = {
+			country_event = {
+				id = RC_TWR_events.1
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = RC_TNO_events.2
+	title = RC_TNO_events.2.t
+	desc = RC_TNO_events.2.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	fire_only_once = yes	
+	immediate = {
+		log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TNO_events.2"
+		hidden_effect = {
+			RussiaCollapse_effect = yes
+			Central_asia_release = yes
+			KAZ_release = yes
+			TannuTuva_becomes_PRC = yes
+		}
+		custom_effect_tooltip = "Will spawn Russian warlords"
+		TAN = {
+			white_peace = {
+				tag = GER
+			}
+			leave_faction = yes
+			set_rule = {
+				can_join_factions = no
+			}
+		}
+		MON = {
+			white_peace = {
+				tag = GER
+			}
+			leave_faction = yes
+			set_rule = {
+				can_join_factions = no
+			}
+		}
+		MEN = {
+			country_event = {
+				id = RC_TNO_events.4
+				days = 20
+			}
+		}
+		news_event = RC_news_events.1
+	}
+	option = {
+		name = RC_TNO_events.2.a
+	}
+}
+
+country_event = {
+	id = RC_TNO_events.4
+	title = RC_TNO_events.4.t
+	desc = RC_TNO_events.4.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	hidden = yes
+	fire_only_once = yes
+	immediate = {
+		log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TNO_events.4"
+	}
+	option = {
+		name = RC_TNO_events.4.a
+		MON = {
+			transfer_units_fraction= {
+				target = MEN
+				size = 0.8
+				stockpile_ratio = 1
+			}
+			every_core_state = {
+				add_core_of = MEN
+			}
+		}
+		MEN = {
+			declare_war_on = {
+				target = MON
+				type = annex_everything
+			}
+			
+		}
+	}
+}
+
+
+
+country_event = {
+	id = RC_TNO_events.300
+	title = RC_TNO_events.3.t
+	desc = RC_TNO_events.3.desc
+	picture = GFX_report_event_soviet_soldiers
+	trigger = {
+#		OR = {
+#			tag = TAN
+#			tag = MON
+#		}
+#		NOT = { country_exists = SOV }
+#		TAN = { NOT = { has_rule = can_join_factions } }
+#		MON = { NOT = { has_rule = can_join_factions } }
+	}
+	hidden = yes
+	fire_only_once = yes
+	option = {
+		name = RC_TNO_events.3.a
+		TAN = { set_rule = { can_join_factions = yes } }
+	}
+}

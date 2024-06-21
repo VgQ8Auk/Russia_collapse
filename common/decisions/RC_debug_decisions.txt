@@ -1,0 +1,179 @@
+RC_debug_decisions = {
+	RC_Total_Soviet_collapse = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+		complete_effect = {
+			SOV = { dismantle_faction = yes }
+			custom_effect_tooltip = SOV_warlords_tt
+			custom_effect_tooltip = CPS_annex_FE
+			custom_effect_tooltip = FIN_annex_Karelia
+			custom_effect_tooltip = CA_collapse
+			custom_effect_tooltip = MON_and_TAN
+			custom_effect_tooltip = East_RK
+			hidden_effect = {
+				RussiaCollapse_effect = yes
+				CPS_Annex_Russian_Far_East = yes
+				FIN_Become_bigger = yes
+				KAZ_release = yes
+				Central_asia_release = yes
+				Mongolia_annexed_by_Mengjiang = yes
+				TannuTuva_becomes_PRC = yes
+				SOV_transfer_units_to_warlords = yes
+				Forming_Eastern_RK = yes
+			}
+		}
+	}
+	RC_Turn_on_Partial_Soviet_collapse = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			NOT = { has_global_flag = RC_Turn_on_Partial_Soviet_collapse }
+		}
+		complete_effect = {
+			set_global_flag = RC_Turn_on_Partial_Soviet_collapse
+			log = "set_global_flag = RC_Turn_on_Partial_Soviet_collapse"
+		}
+	}
+	RC_Turn_off_Partial_Soviet_collapse = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = RC_Turn_on_Partial_Soviet_collapse
+		}
+		complete_effect = {
+			clr_global_flag = RC_Turn_on_Partial_Soviet_collapse
+			log = "clr_global_flag = RC_Turn_on_Partial_Soviet_collapse"
+		}
+	}
+	RC_Forming_Eastern_RK = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = RC_Turn_on_Partial_Soviet_collapse
+		}
+		complete_effect = {
+			Forming_Eastern_RK = yes
+		}
+	}
+	RC_Transfer_Sov_units = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = RC_Turn_on_Partial_Soviet_collapse
+		}
+		available = {
+			country_exists = WRS
+			country_exists = TYM
+			country_exists = TOM
+			country_exists = IRK
+		}
+		complete_effect = {
+			SOV_transfer_units_to_warlords = yes
+		}
+	}
+
+	RC_SOV_transfer_states_to_warlords = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = RC_Turn_on_Partial_Soviet_collapse
+		}
+		complete_effect = {
+			RussiaCollapse_effect = yes
+		}
+	}
+	
+	RC_CPS_into_SOVfareast = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = RC_Turn_on_Partial_Soviet_collapse
+		}
+		complete_effect = {
+			CPS_Annex_Russian_Far_East = yes
+		}
+	}
+	
+	RC_Finland_test = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = RC_Turn_on_Partial_Soviet_collapse
+		}
+		complete_effect = {
+			FIN_Become_bigger = yes
+		}
+	}
+	
+	RC_SOV_central_asia_collapse = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = RC_Turn_on_Partial_Soviet_collapse
+		}
+		complete_effect = {
+			KAZ_release = yes
+			Central_asia_release = yes
+		}
+	}
+	
+	RC_civilwar_test = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+		complete_effect = {
+			start_civil_war = {
+				ruling_party = democratic
+				# Original country's ideology changes to democratic
+				ideology = ROOT
+				# Breakaway gets old ideology of ROOT
+				size = 0.5
+			}
+		}
+	}
+	
+
+}

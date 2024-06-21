@@ -1,0 +1,19 @@
+characters = {
+
+	RKU_Erich_Koch = {
+		name = RKU_Erich_Koch
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RKU_Erich_Koch
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	
+	

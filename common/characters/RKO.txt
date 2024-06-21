@@ -1,0 +1,19 @@
+characters = {
+	
+	RKO_Hinrich_Lohse = {
+		name = RKO_Hinrich_Lohse
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RKO_Hinrich_Lohse
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+		
+}
+	
+	

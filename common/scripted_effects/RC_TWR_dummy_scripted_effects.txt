@@ -1,0 +1,209 @@
+#RussiaCollapseTWR_effect
+
+
+RussiaCollapseTWR_effect = {
+    PRM_add_cores = yes
+    PRM_transfer_states = yes
+    BRY_add_cores = yes
+    BRY_transfer_states = yes
+    BRY_Military_Okrug = yes
+    RUS_add_cores = yes
+    RUS_transfer_states = yes
+}
+
+PRM_add_cores = {
+    every_state = {
+        limit = {
+            OR = {
+            state = 398
+            state = 400
+            state = 397
+            state = 252
+            state = 256
+            state = 833
+            state = 249
+            state = 578
+            state = 399
+            state = 825
+            state = 581
+            state = 579
+            state = 824
+            state = 580
+            state = 577
+            state = 571
+            state = 403
+            state = 572
+            state = 573
+            state = 652
+            state = 251
+            state = 401
+            state = 829
+            state = 653
+            state = 262
+            state = 651
+            state = 406
+            state = 407
+            state = 587
+            state = 402
+            state = 583
+            state = 590
+            state = 582
+            state = 250
+            state = 255
+            state = 239
+            state = 882
+            state = 588
+            state = 881
+            state = 404
+            state = 589
+            state = 732
+            state = 586
+            state = 405
+            state = 742
+            state = 830
+            state = 585
+            state = 823
+            state = 831
+            state = 832
+            state = 584
+            state = 570
+            state = 40
+            state = 654
+            state = 569
+            state = 568
+            state = 567
+            state = 566
+            state = 575
+            state = 876
+            state = 878
+            state = 576
+            state = 516
+            }
+        }
+        add_core_of = PRM
+    }
+}
+
+PRM_transfer_states = {
+    every_state = {
+        limit = {
+            OR = {
+            state = 398
+            state = 400
+            state = 397
+            state = 252
+            state = 256
+            state = 833
+            state = 249
+            state = 578
+            state = 399
+            state = 825
+            state = 581
+            state = 579
+            state = 824
+            state = 577
+            state = 571
+            state = 403
+            state = 580
+            state = 572
+            state = 573
+            state = 652
+            state = 251
+            state = 401
+            state = 829
+            state = 653
+            state = 262
+            state = 651
+            state = 406
+            state = 407
+            state = 587
+            state = 402
+            state = 583
+            state = 590
+            state = 582
+            state = 250
+            state = 255
+            state = 239
+            state = 882
+            state = 588
+            state = 881
+            state = 404
+            state = 589
+            state = 732
+            state = 586
+            state = 405
+            state = 742
+            state = 830
+            state = 585
+            state = 823
+            state = 831
+            state = 832
+            state = 584
+            state = 570
+            state = 40
+            state = 654
+            state = 569
+            state = 568
+            state = 567
+            state = 566
+            state = 575
+            state = 876
+            state = 878
+            state = 576
+            state = 516
+            }
+        }
+        transfer_state_to = PRM
+    }
+}
+
+
+RUS_add_cores = {
+    every_state = {
+        limit = {
+            OR = {
+                state = 408
+                state = 409
+                state = 644
+                state = 560
+                state = 561
+                state = 657
+                state = 655
+                state = 574
+                state = 562
+                state = 874
+                state = 637
+                state = 822
+                state = 875
+                state = 544
+                state = 877
+            }
+        }
+        add_core_of = BYA
+    }
+}
+
+RUS_transfer_states = {
+    every_state = {
+        limit = {
+            OR = {
+                state = 408
+                state = 409
+                state = 644
+                state = 560
+                state = 561
+                state = 657
+                state = 655
+                state = 574
+                state = 562
+                state = 874
+                state = 637
+                state = 822
+                state = 875
+                state = 544
+                state = 877
+            }
+        }
+        transfer_state_to = RUS
+    }
+}

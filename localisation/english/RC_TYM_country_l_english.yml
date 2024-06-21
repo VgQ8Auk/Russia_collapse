@@ -1,0 +1,28 @@
+﻿l_english:
+ TYM: "Tyumen" #"West Siberian People's Republic"
+ TYM_DEF: "Tyumen" #"the West Siberian People's Republic"
+ TYM_ADJ: "Tyumen" #"West Siberian"
+ 
+ TYM_communism: "West Siberian People's Republic"
+ TYM_communism_DEF: "the West Siberian People's Republic"
+ TYM_communism_ADJ: "West Siberian"
+ TYM_communism_party: "VKP(b)"
+ TYM_communism_party_long: "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)"
+ 
+ TYM_democratic: "West Siberian Republic"
+ TYM_democratic_DEF: "the West Siberian Republic"
+ TYM_democratic_ADJ: "West Siberian"
+ TYM_democratic_party: "LPR"
+ TYM_democratic_party_long: "Liga Preobrazovania Rossii"
+ 
+ TYM_fascism: "West Siberian Government of National Vengeance"
+ TYM_fascism_DEF: "the West Siberian Government of National Vengeance"
+ TYM_fascism_ADJ: "West Siberian"
+ TYM_fascism_party: "Chernaya Liga"
+ TYM_fascism_party_long: "Chernaya Liga"
+ 
+ TYM_neutrality: "Ural Military District"
+ TYM_neutrality_DEF: "the Ural Military District"
+ TYM_neutrality_ADJ: "Ural"
+ TYM_neutrality_party: "UKGS"
+ TYM_neutrality_party_long: "Uralskiy Komitet Gosudarstvennogo Spaseniya"

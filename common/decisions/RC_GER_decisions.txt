@@ -1,0 +1,82 @@
+RC_GER_territories_management = {
+	GER_Holland = {
+		icon = ger_reichskommissariats
+		visible = {
+			NOT = { country_exists = RKN }
+		}
+		available = {
+			has_government = fascism
+			controls_state = 7
+			controls_state = 35
+			controls_state = 36
+			is_ai = no
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				FRA = { has_capitulated = yes }
+			}
+			modifier = {
+				factor = 0
+				is_ai = no
+			}
+		}
+		complete_effect = {
+			RKN = {
+				transfer_state = 7
+				set_state_controller = 35
+				set_state_controller = 36				
+				GER = {
+					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+				}
+				hidden_effect = {
+					7 = { set_compliance = 80 }
+					35 = { set_compliance = 60 }
+					36 = { set_compliance = 60 }
+					add_civil_war_target = HOL
+				}	
+			}
+		}
+	}
+
+	GER_BEL = {
+		icon = ger_reichskommissariats
+		visible = {
+			NOT = { country_exists = RKB }
+		}
+		available = {
+			has_government = fascism
+			controls_state = 6
+			controls_state = 34
+			is_ai = no
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				FRA = { has_capitulated = yes }
+			}
+			modifier = {
+				factor = 0
+				is_ai = no
+			}
+		}
+		complete_effect = {
+			RKB = {
+				transfer_state = 6
+				set_state_controller = 34			
+				GER = {
+					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+				}
+				hidden_effect = {
+					6 = { set_compliance = 80 }
+					34 = { set_compliance = 60 }
+					add_civil_war_target = BEL
+				}	
+			}
+		}
+	}
+}

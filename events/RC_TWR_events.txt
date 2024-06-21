@@ -1,0 +1,326 @@
+add_namespace = RC_TWR_events
+add_namespace = RC_TWR_news_events
+
+country_event = {
+    id = RC_TWR_events.1
+	title = RC_TWR_events.1.t
+	desc = RC_TWR_events.1.desc
+	picture = GFX_report_event_soviet_soldiers_tank
+
+    is_triggered_only = yes
+
+    immediate = {
+        log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TWR_events.1"
+        RC_TWR_PRM = yes
+    }
+    option = {
+        name = RC_TWR_events.1.a
+        PRM = {
+            country_event = {
+                id = RC_TWR_events.2
+                days = 15
+            }
+        }
+    }
+}
+
+country_event = {
+    id = RC_TWR_events.2
+	title = RC_TWR_events.2.t
+	desc = RC_TWR_events.2.desc
+	picture = GFX_report_event_generic_army
+    is_triggered_only = yes
+    immediate = {
+        log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TWR_events.2"
+        hidden_effect = {
+            RUS = {
+                add_state_core = 408
+                transfer_state = 408
+            }
+        }
+    }
+	option = {
+		name = RC_TWR_events.2.a
+        effect_tooltip = {
+            RUS = {
+                add_state_core = 408
+                transfer_state = 408
+            }
+        }
+        RUS = {
+            country_event = {
+                id = RC_TWR_events.3
+                days = 10
+            }
+        }
+	}
+}
+
+country_event = {
+    id = RC_TWR_events.3
+	title = RC_TWR_events.3.t
+	desc = RC_TWR_events.3.desc
+	picture = GFX_report_event_soviet_soldiers_tank
+	is_triggered_only = yes
+    immediate = {
+        log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TWR_events.3"
+        hidden_effect = {
+            every_state = {
+                limit = {
+                    state = 409
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+    }
+	option = {
+		name = RC_TWR_events.3.a
+        effect_tooltip = {
+            every_state = {
+                limit = {
+                    state = 409
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+        RUS = {
+            country_event = {
+                id = RC_TWR_events.4
+                days = 10
+            }
+        }
+	}
+}
+
+country_event = {
+    id = RC_TWR_events.4
+	title = RC_TWR_events.4.t
+	desc = RC_TWR_events.4.desc
+	picture = GFX_report_event_soviet_soldiers_tank
+	is_triggered_only = yes
+    immediate = {
+        log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TWR_events.4"
+        hidden_effect = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 657
+                        state = 560
+                        state = 561
+                    }
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+    }
+    option = {
+        name = RC_TWR_events.4.a
+        effect_tooltip = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 657
+                        state = 560
+                        state = 561
+                    }
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+        RUS = {
+            country_event = {
+                id = RC_TWR_events.5
+                days = 15
+            }
+            country_event = {
+                id = RC_TWR_events.6
+                days = 10
+            }
+        }
+    }
+}
+
+country_event = {
+    id = RC_TWR_events.5
+	title = RC_TWR_events.5.t
+	desc = RC_TWR_events.5.desc
+	picture = GFX_report_event_soviet_soldiers_tank
+	is_triggered_only = yes
+
+    immediate = {
+        log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TWR_events.5"
+        hidden_effect = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 562
+                        state = 655
+                        state = 574
+                        state = 874
+                        state = 637
+                    }
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+    }
+
+    option = {
+        name = RC_TWR_events.5.a
+        effect_tooltip = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 562
+                        state = 655
+                        state = 574
+                        state = 874
+                        state = 637
+                    }
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+        RUS = {
+            country_event = {
+                id = RC_TWR_events.7
+                days = 15
+            }
+        }
+    }
+}
+
+country_event = {
+    id = RC_TWR_events.6
+	title = RC_TWR_events.6.t
+	desc = RC_TWR_events.6.desc
+	picture = GFX_report_event_soviet_soldiers_tank
+	is_triggered_only = yes
+
+    immediate = {
+        log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TWR_events.6"
+        hidden_effect = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 563
+                        state = 564
+                        state = 565
+                    }
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+    }
+
+    option = {
+        name = RC_TWR_events.6.a
+        effect_tooltip = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 563
+                        state = 564
+                        state = 565
+                    }
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+        RUS = {
+            country_event = {
+                id = RC_TWR_events.8
+                days = 8
+            }
+        }
+        set_province_name = {
+            id = 7835
+            name = "Verkhneudinsk"
+        }
+    }
+}
+
+country_event = {
+    id = RC_TWR_events.7
+	title = RC_TWR_events.7.t
+	desc = RC_TWR_events.7.desc
+	picture = GFX_report_event_soviet_soldiers_tank
+	is_triggered_only = yes
+
+    immediate = {
+        log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TWR_events.7"
+        hidden_effect = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 877
+                        state = 644
+                        state = 822
+                        state = 875
+                    }
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+    }
+
+    option = {
+        name = RC_TWR_events.7.a
+        effect_tooltip = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 877
+                        state = 644
+                        state = 822
+                        state = 875
+                    }
+                }
+                add_core_of = RUS
+                transfer_state_to = RUS
+            }
+        }
+    }
+}
+
+country_event = {
+    id = RC_TWR_events.8
+	title = RC_TWR_events.8.t
+	desc = RC_TWR_events.8.desc
+	picture = GFX_report_event_soviet_soldiers_tank
+	is_triggered_only = yes
+    immediate = {
+        log = "[GetDateText] [ROOT.GetNameDefCap] = RC_TWR_events.8"
+    }
+    option = {
+        ai_chance = {
+            base = 90
+        }
+        name = RC_TWR_events.8.a
+        BRY_transfer_states = yes
+        BRY_add_cores = yes
+        RUS = {
+            release_autonomy = {
+                target = BRY
+                autonomy_state = autonomy_puppet
+                freedom_level = 0.5
+            }
+        }
+        BRY_Military_Okrug = yes
+    }
+    option = {
+        ai_chance = {
+            base = 10
+        }
+        name = RC_TWR_events.8.b
+    }
+}

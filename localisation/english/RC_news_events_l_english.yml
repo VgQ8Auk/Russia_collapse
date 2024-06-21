@@ -1,0 +1,12 @@
+﻿l_english:
+ RC_news_events.1.t: "The Collapse of [SOV.GetNameDef]"
+ RC_news_events.1.desc: "Shocking news comes from [SOV.GetNameDef] today, as numerous reports indicate several new governments have emerged from the remains of the [SOV.GetNameDef] that is still untouched by the advancing Wehrmacht.\n\nThe collapse stems not only from German forces' continuous successes on the Eastern Front but also from worsening trust in the [SOV.GetAdjective] government and increasing in disorders.\n\nThe winner in the East is now clear, and that is Germany."
+ RC_news_events.1.a: "Forgive me Motherland, for I have failed you..."
+ RC_news_events.1.b: "The New Order shall rise."
+ RC_news_events.1.c: "A Union, shattered."
+ 
+ 
+ RC_news_events.4.t: "The Question of Mongolia"
+ RC_news_events.4.desc: "With the collapse of the Soviet Union, our leader [MEN.GetLeader] has decided the time is now to crush the Soviet puppet in the West, liberate our people from the red menace."
+ RC_events.4.a: "Onwards!"
+ 

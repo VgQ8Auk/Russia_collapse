@@ -1,0 +1,9 @@
+is_PRM_cores = {
+    any_state = {
+        OR = {
+            state = 398
+            state = 400
+            state = 397
+        }
+    }
+}

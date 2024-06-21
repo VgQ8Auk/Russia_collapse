@@ -1,0 +1,20 @@
+﻿l_english:
+ NOV: "Novosibirsk"
+ NOV_DEF: "Novosibirsk"
+ NOV_ADJ: "Novosibirsk"
+ 
+ NOV_communism: "Soviet Republic of Novosibirsk"
+ NOV_communism_DEF: "Soviet Republic of Novosibirsk"
+ NOV_communism_ADJ: "Novosibirsk Soviet"
+ 
+ NOV_democratic: "Novosibirsk Federation"
+ NOV_democratic_DEF: "the Novosibirsk Federation"
+ NOV_democratic_ADJ: "Novosibirsk"
+ 
+ NOV_fascism: "Novosibirsk League"
+ NOV_fascism_DEF: "the Novosibirsk League"
+ NOV_fascism_ADJ: "Novosibirsk"
+ 
+ NOV_neutrality: "Novosibirsk Free State"
+ NOV_neutrality_DEF: "the Novosibirsk Free State"
+ NOV_neutrality_ADJ: "Novosibirsk"

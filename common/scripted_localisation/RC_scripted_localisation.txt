@@ -1,0 +1,18 @@
+defined_text = {
+    name = GetRCStatus
+    text = {
+        trigger = {
+            has_global_flag = RC_TNO_collapse
+        }
+        localization_key = RC_TNO_collapse_text
+    }
+    text = {
+        trigger = {
+            has_global_flag = RC_TWR_collapse
+        }
+        localization_key = RC_TWR_collapse_text
+    }
+    text = {
+        localization_key = RC_none
+    }
+}

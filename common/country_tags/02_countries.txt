@@ -1,0 +1,38 @@
+WRS = "countries/Soviet Union.txt"
+TYM = "countries/Soviet Union.txt"
+TOM = "countries/Soviet Union.txt"
+IRK = "countries/Soviet Union.txt"
+
+NOV = "countries/Soviet Union.txt"
+PRM = "countries/Soviet Union.txt"
+KRA = "countries/Soviet Union.txt"
+
+RUS = "countries/Soviet Union.txt"
+BRY = "countries/Soviet Union.txt"
+TVG = "countries/Soviet Union.txt"
+
+RKN = "countries/Holland.txt"
+RKB = "countries/Belgium.txt"
+RKM = "countries/Soviet Union.txt"
+RKU = "countries/Ukraine.txt"
+RKO = "countries/Belarus.txt"
+RKC = "countries/Crimea.txt"
+RKK = "countries/Georgia.txt"
+PBM = "countries/Czechoslovakia.txt"
+GGV = "countries/Poland.txt"
+
+
+BRG = "countries/France.txt"
+TNS = "countries/Moldova.txt"
+#XYZ = "countries/Soviet Union.txt"
+#SAM = "countries/Soviet Union.txt"
+#VYT = "countries/Soviet Union.txt"
+#VOL = "countries/Soviet Union.txt"
+#GOR = "countries/Soviet Union.txt"
+#PRM = "countries/Soviet Union.txt"
+#ORE = "countries/Soviet Union.txt"
+#ORS = "countries/Soviet Union.txt"
+#URL = "countries/Soviet Union.txt"
+#BAS = "countries/Soviet Union.txt"
+
+#SVR = "countries/Soviet Union.txt"

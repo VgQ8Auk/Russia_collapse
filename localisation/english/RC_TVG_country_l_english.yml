@@ -1,0 +1,28 @@
+﻿l_english:
+ TVG: "Transvolga"
+ TVG_DEF: "Transvolga"
+ TVG_ADJ: "Transvolgan"
+
+ TVG_communism: "Kazan Military Okrug"
+ TVG_communism_DEF: "the Kazan Military Okrug"
+ TVG_communism_ADJ: "Kazan"
+ TVG_communism_party: "OAKO"
+ TVG_communism_party_long: "Okkupatsionnyye Administratsiya Kazanskogo Okruga (Kazan Okrug Occupation Authorities)"
+
+ TVG_democratic: "Committee of Members of the Constituent Assembly"
+ TVG_democratic_DEF: "the Committee of Members of the Constituent Assembly"
+ TVG_democratic_ADJ: "Komuch"
+ TVG_democratic_party: "PDR"
+ TVG_democratic_party_long: "Partiya Demokratizatsiya Rossii (Party For the Democratization Of Russia)"
+
+ TVG_fascism: "Armed Forces for the Liberation of the Urals"
+ TVG_fascism_DEF: "the Armed Forces for the Liberation of the Urals"
+ TVG_fascism_ADJ: "Uralian"
+ TVG_fascism_party: "VSOU"
+ TVG_fascism_party_long: "Vooruzhennyye Sily Osvobozhdeniya Urala (Armed Forces for the Liberation of the Urals)"
+
+ TVG_neutrality: "Armed Forces of the Urals"
+ TVG_neutrality_DEF: "the Armed Forces of the Urals"
+ TVG_neutrality_ADJ: "Uralian"
+ TVG_neutrality_party: "KVK"
+ TVG_neutrality_party_long: "Kazanskij Voennyj Komitet (Kazan Military Committee)"
